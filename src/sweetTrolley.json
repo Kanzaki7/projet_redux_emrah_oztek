@@ -1,0 +1,167 @@
+[
+    {
+        "chocolates": [
+            {
+                "id": "choco01",
+                "category": "chocolate",
+                "name": "Chocolate Frog with Personalised Wizard Card",
+                "price": 28.00,
+                "description": "Create your very own personalised wizard card for the ultimate Harry Potter gifting experience. Great for yourself or as the perfect gift for a treasured keepsake, unique to every Hogwarts student. The beloved and best-selling Chocolate Frog with Personalised Wizard Card will be sure to excite both chocolate lovers and collectors alike. Straight off the Hogwarts Express Sweets Trolley, the most famous wizarding confectionery, the Chocolate Frog, is now available to own with a personalised wizard card, designed by you. Packaged in a classic style violet and gold Honeydukes box, along with a delicious edible replica of the milk Chocolate Frog, this confectionery delight contains a collectable witch or wizard card starring you! This personalised chocolate frog features your chosen photo on the front of a high-quality glossy card, as well as a description of your Hogwarts house, wand core, and a selection of hobbies and favourite Hogwarts classes on the back. Now available to own and collect, along with a randomised wizard card including Professor Minerva McGonagall, Professor Dolores Umbridge, Neville Longbottom and the rarest card of them all, Harry Potter. Which card will you receive? All images shown are for promotional purposes only. Please allow an additional 7 working days for personalised items to be dispatched. Please note, that your Chocolate Frog with Personalised Wizard Card will be sent in a separate package to any other items in your order.",
+                "ingredients": "Milk chocolate (Sugar, Whole Milk Powder, Cocoa Butter, Cocoa Mass, Emulsifier: Soya Lecithin, Natural Vanilla Flavouring). Milk chocolate contains cocoa solids 30% minimum, and milk solids 18% minimum.",
+                "allergy_advice": "For allergens, please see ingredients in bold. May also contain traces of nuts. Store in a cool, dry place away from direct sunlight. Do not refrigerate. Nutritional information per 100g: Energy 2301/551Kj/kcal, Fat: 32.9g (of which saturates: 19.9g), Carbohydrate: 55g (of which sugars: 52.6g), Protein: 7.5g, Salt: 0.22g.",
+                "image": "https://harrypottershop.co.uk/cdn/shop/products/ChocFrog_800x.png?v=1662428344",
+            },
+            {
+                "id": "choco02",
+                "category": "chocolate",
+                "name": "Chocolate Frog - with authentic film packaging",
+                "price": 13.00,
+                "description": "'Anything off the trolley, dears?' Take home this delicious frog shaped confection of solid milk chocolate. Each frog comes in an ornately decorated pentagonal box with wizard card. Cards exhibit 3-dimensional movement. The randomly distributed Chocolate Frog Card™ will include a biography of either a Hogwarts™ House Founder: Godric Gryffindor, Salazar Slytherin, Helga Hufflepuff, and Rowena Ravenclaw or Hogwarts Headmaster Albus Dumbledore, Gilderoy Lockhart, Hengist of Woodcroft, Bertie Bott, Jocunda Sykes, Devlin Whitehorn, Garrick Ollivander, Merlin, Ignatia Wildsmith, Paracelsus or Beatrix Bloxam. The Harry Potter Chocolate Frog weighs approximately 150g.",
+                "ingredients": "Milk chocolate (Sugar, Whole Milk Powder, Cocoa Butter, Cocoa Mass, Emulsifier: Soya Lecithin, Natural Vanilla Flavouring). Milk chocolate contains cocoa solids 30% minimum, milk solids 18% minimum.",
+                "allergy_advice": "For allergens, please see ingredients in bold. May also contain traces of nuts. Store in a cool, dry place away from direct sunlight. Do not refrigerate. Nutritional information per 100g: Energy 2301/551Kj/kcal, Fat: 32.9g (of which saturates: 19.9g), Carbohydrate: 55g (of which sugars: 52.6g), Protein: 7.5g, Salt: 0.22g.",
+                "image": "https://harrypottershop.co.uk/cdn/shop/products/1236542_1_c9f32694-63f3-4a8c-b622-47f9f9ca47f5_800x.png?v=1679956173"
+            },
+            {   
+                "id":"choco03",
+                "category": "chocolate",
+                "name": "Fudge Flies",
+                "price": 6.95,
+                "description": "Indulge on these tasty Harry Potter Fudge Flies which are made up of unique pieces of milk chocolate, shaped like a fly. Fudge Flies were a favourite sweet of Scabbers, Ron Weasley’s pet rat given to him by his brother Percy. Ron told people at a party celebrating Gryffindor's victory in Quidditch, that Scabbers could have enjoyed some Fudge Flies if he hadn't been killed by Hermione Granger's pet cat, Crookshanks. Containing a delicious fudge flavouring, these are the perfect tasty treat for witches or wizards to share with their friends. Weighs approximately 113g.",
+                "ingredients": "Sugar, Palm Kernel Oil, Cocoa Powder, Non-fat Milk Powder, Soy Lecithin (an emulsifier), Vanilla, Corn Syrup and Citric Acid (a preservative). Contains: MILK and SOY.",
+                "allergy_advice": "For allergens, please see ingredients in bold. Shares equipment with and produced in a facility containing peanuts, tree nuts, milk, egg, wheat, and soy.",
+                "image": "https://harrypottershop.co.uk/cdn/shop/products/1259748_1_grande_52b48d81-eb59-444c-8d7a-e97da52a8cb6_800x.png?v=1679956203"
+            },
+            {
+                "id":"choco04",
+                "category": "chocolate",
+                "name": "Peppermint Toads",
+                "price": 6.95,
+                "description": "'Anything off the trolley, dears?' A long-time favourite from the shelves of Honeydukes Sweet Shop, are these magical dark chocolate Peppermint Toads. Each mouth-watering bite sized toad is infused with a distinctive peppermint flavour that is certain to leave you wanting more. Presented in themed packaging, the delicious Peppermint Toads make the perfect gift, or maybe a treat for yourself, they are sure to be a hit with any Harry Potter fan.",
+                "ingredients": "Cocoa Mass, Sugar, Cocoa Butter, Emulsifier: Soya Lecithin, Natural Vanilla Flavouring, Peppermint Oil. Dark Chocolate Contains Cocoa Solids 53% minimum. Contains: SOY.",
+                "allergy_advice": "For allergens, please see ingredients in bold. Shares equipment with and produced in a facility containing peanuts, tree nuts, milk, egg, wheat, and soy.",
+                "image": "https://harrypottershop.co.uk/cdn/shop/products/1236013_1_grande_b84706a2-f31e-4c8b-8e58-f64d3af6ed18_800x.png?v=1679956170"
+            },
+            {
+                "id":"choco05",
+                "category": "chocolate",
+                "name": "Exploding Bon Bons",
+                "price": 12.00,
+                "description": "Why not try one of the more unusual Wizarding World treats, Exploding Bon Bons. These delicious small white chocolate sweets are filled with a tasty orange and pineapple flavoured truffle, the perfect sweet treat to make your mouth water. Hidden within the fruit flavoured centre is scrumptious popping candy pieces which crackle on your tongue, creating the exploding sensation from which they derive their name. Ten individually wrapped sweets are presented in a movie inspired box, which look as if it’s come straight off a shelf in Honeydukes sweet shop. The Exploding Bon Bons contents weigh approximately 90g.",
+                "ingredients": "White Chocolate Coating, (Sugar, Palm Kernal Oil, Non-fat Milk Powder, Whole Milk Powder, Whey Powder, Palm Oil, Soy Lecithin (an emulsifier), Vanilla), Orange Popping Candy (Sugar, Maltose Syrup, Carbon Dioxide, Artificial Color (Yellow 6), Artificial Flavoring, Palm Kernel Oil with Soy Lecithin, Orange Oil, Artificial Flavour (Propylene Glycol, Artificial Flavors, Ethyl Alcohol, Water, Triacetin). Contains: MILK and SOY.",
+                "allergy_advice": "For allergens, please see ingredients in bold. Shares equipment with and produced in a facility containing peanuts, tree nuts, milk, egg, wheat, and soy.",
+                "image": "https://harrypottershop.co.uk/cdn/shop/products/1250655_1_grande_846999d7-778b-427d-8f03-9dd689e7d5ae_800x.png?v=1679956188"
+            },
+            {
+                "id": "choco06",
+                "category": "chocolate",
+                "name": "Bag of Gringotts Galleons Chocolate Coins",
+                "price": 4.95,
+                "description": "A bag of milk chocolate Galleons, just like the golden coins found in the bank of Gringotts in the Harry Potter series. Each bag contains approximately 67.5g of chocolate coins.",
+                "allergy_advice": "Milk. May contain soya, cereals containing gluten and nuts.",
+                "image": "https://harrypottershop.co.uk/cdn/shop/products/Web_coins_grande_4cdc99e0-4a69-46ce-a001-c7f3daa8134c_800x.png?v=1679952068"
+            },
+            {
+                "id":"choco07",
+                "category": "chocolate",
+                "name": "Fizzing Whizzbees Chocolate",
+                "price": 12.00,
+                "description": "'Anything off the trolley, dears?' Take home these Queen Bee Fizzing Whizzbees Chocolate, which are guaranteed to make your mouth go POP. These mouth-watering bee shaped milk chocolates contain fruit flavour popping candy. Made from a delicious combination of milk chocolate and cocoa butter, the crackling candy chocolate has been designed with packaging based on the Honeydukes candy shop from the Harry Potter film series. Perfect for any Harry Potter fan with a sweet tooth and a great gift for all witches and wizards.",
+                "ingredients": "Milk Chocolate Coating (Sugar, Palm Oil Kernel, Cocoa Powder, Whey Powder, Non-fat Milk Powder, Soy Lecithin, (an emulsifier), Vanilla, Citric Acid (as a preservative), Popping Candy (Sugar, Maltose Syrup, Carbon Dioxide, Artificial Color (Red 40), Strawberry Flavor, and Flavoring (Artificial Flavors, Propylene Glycol, Ethyl Alcohol, Water, FD&C Red 40, FD&C Blue 1, Triacetin). Contains: MILK and SOY.",
+                "allergy_advice": "For allergens, please see ingredients in bold. Shares equipment with and produced in a facility containing peanuts, tree nuts, milk, egg, wheat, and soy.",
+                "image": "https://harrypottershop.co.uk/cdn/shop/products/1240227_1_grande_e2320ec9-e800-495f-b45c-ed9a7182cf91_800x.png?v=1679956177"
+            },
+            {
+                "id": "choco08",
+                "category": "chocolate",
+                "name": "Honeydukes Milk Chocolate Honeycomb",
+                "price": 8.95,
+                "description": "‘Anything off the trolley, dears?’ Try one of the favourite flavours from Honeydukes sweet shop, with this delicious Honeydukes chocolate honeycomb. Inspired by the sweet treats available from Honeydukes aboard the Hogwarts Express, this tasty Milk Chocolate Honeycomb is the perfect treat to indulge in. Presented in a Honeydukes branded box, featuring film authentic graphics as seen on screen, Milk Chocolate Honeycomb is the perfect confection to share with a fellow witch or wizard. Weighs approximately 120g.",
+                "ingredients": "Honeycomb Toffee (51%) (Sugar, Glucose Syrup, Raising Agent: Bicarbonate, Rice Flour), Milk Chocolate (49%) (Sugar, Whole Milk Powder, Cocoa Butter, Cocoa Mass, Emulsifier: Soya Lecithin, Vanilla Flavouring). Milk Chocolate Contains Cocoa Solids 30% minimum, milk solids 18% minimum.",
+                "allergy_advice": "For allergens, please see ingredients in bold. May also contain traces of nuts.",
+                "image": "https://harrypottershop.co.uk/cdn/shop/files/Honeydukes_product_MilkHoneycomb_800x.png?v=1687249638"
+            },
+            {
+                "id":"choco09",
+                "category": "chocolate",
+                "name": "Honeydukes All Butter Toffees",
+                "price": 12.00,
+                "description": "‘Anything off the trolley, dears?’ Try one of the favourite flavours from Honeydukes sweet shop, with these delicious All Butter Toffees. Inspired by the sweet treats available from Honeydukes aboard the Hogwarts Express, these tasty butter toffees are the perfect treat to indulge on. Presented in a Honeydukes branded box, featuring film authentic graphics as seen on screen, and topped with coordinated ribbon, Honeydukes Toffees are the perfect confection to share with a fellow witch or wizard. Weighs approximately 150g. Individual packaging may vary.",
+                "ingredients": "Glucose Syrup (Sulphite), Sugar, Whey Powder (Milk), Butter (Milk) (8%), Vegetable Oil (Palm), Sweetened Condensed Milk (Milk, Sugar), Salt, Emulsifier: Soya Lecithin, Flavouring.",
+                "allergy_advice": "For allergens, please see ingredients in bold. May also contain traces of nuts.",
+                "image": "https://harrypottershop.co.uk/cdn/shop/files/product_ButterToffee_1eedac36-17c2-4af1-9c79-07b014972244_800x.png?v=1692345816"
+            }
+        ],
+        "beers": [
+            {
+                "id":"beer01",
+                "category": "beer",
+                "name": "Bottled Butterbeer",
+                "price": 8.95,
+                "description": "Experience Butterbeer, the fan favourite drink from the Wizarding World in a brand new way at home! Best served chilled and poured straight from the bottle, the delicious soft drink features a new take on the butterscotch fans know and love. The unique blend of top-secret ingredients makes Harry Potter Bottled Butterbeer a must-try for any aspiring witch or wizard! Brewed in the UK, bottled Butterbeer is available to buy in souvenir glass bottles with a collectable label designed exclusively by MinaLima. Bottled Butterbeer is non-alcoholic, vegetarian, vegan and gluten-free. This enchanting beer does not contain actual butter! Maximum purchase of three individual bottles per order, but can also be purchased as a 4-pack.",
+                "ingredients": "carbonated water, sugar, glucose syrup, pear juice concentrate, natural flavours, acid (lactic acid), fermented ginger root extract (water, glucose syrup, ginger root, pear juice concentrate, yeast), concentrate (apple, carrot, hibiscus), quillaia extract.",
+                "allergy_advice": "For allergens, please see ingredients in bold.",
+                "image": "https://harrypottershop.co.uk/cdn/shop/products/butterbeer_1_800x.png?v=1613492511"
+            },
+            {
+                "id": "beer02",
+                "category": "beer",
+                "name": "Bottled Butterbeer - Limited Edition",
+                "price": 8.95,
+                "description": "Experience Butterbeer, the iconic wizarding drink, in a brand new way! Best served chilled or poured straight over ice, this special 275ml Limited Edition bottle contains the original Butterbeer flavoured soda with a collectable new bottle design. The unique blend of top-secret ingredients makes Harry Potter Bottled Butterbeer a must-try for any aspiring witch or wizard! Brewed in the UK, Butterbeer is non-alcoholic, vegetarian, vegan and gluten-free. This enchanting beer does not contain actual butter, but the classic butterscotch fans know and love! Maximum purchase of three individual bottles per order, but can also be purchased as a 4-pack in the classic MinaLima bottle design.",
+                "ingredients": "carbonated water, sugar, glucose syrup, pear juice concentrate, natural flavours, acid (lactic acid), fermented ginger root extract (water, glucose syrup, ginger root, pear juice concentrate, yeast), concentrate (apple, carrot, hibiscus), quillaia extract.",
+                "allergy_advice": "For allergens, please see ingredients in bold.",
+                "image": "https://harrypottershop.co.uk/cdn/shop/files/BBHogPride_2d886116-f4f3-4b04-90e8-a8420057b090_800x.png?v=1710338941"
+            },
+            {
+                "id": "beer03",
+                "category":"beer",
+                "name": "Bottled Butterbeer 4-Pack",
+                "price": 20.00,
+                "description": "Experience the fan favourite drink from the Wizarding World in a brand new way - at home! Best served chilled and poured straight from the bottle, the delicious soft drink features a new take on the butterscotch flavour that fans know and love. The unique blend of top-secret ingredients make bottled Butterbeer a must try for any aspiring witch or wizard! Brewed in the UK, bottled Butterbeer is available to buy in souvenir glass bottles in this 4-pack, with a collectable label designed exclusively by MinaLima. Bottled Butterbeer is vegetarian, vegan and gluten-free.",
+                "ingredients": "carbonated water, sugar, glucose syrup, pear juice concentrate, natural flavours, acid (lactic acid), fermented ginger root extract (water, glucose syrup, ginger root, pear juice concentrate, yeast), concentrate (apple, carrot, hibiscus), quillaia extract.",
+                "allergy_advice": "For allergens, please see ingredients in bold.",
+                "image": "https://harrypottershop.co.uk/cdn/shop/products/256486_2_800x.png?v=1614598728"
+            }
+        ],
+        "jellybeans": [
+            {
+                "id": "jelly01",
+                "category": "jellybean",
+                "name": "Butterbeer Jellybeans",
+                "price": 2.95,
+                "description": "Harry Potter Butterbeer, the sweet and iconic wizarding drink, now in a jelly bean! Tastes just like the real thing served at The Three Broomsticks! Grab & Go 28g bag - perfect for that delicious little treat.",
+                "ingredients": "Sugar, glucose syrup, modified cornstarch, glazing agents (E904, E901, E903), concentrates of (carrot, apple, black currant, turmeric) for colour, flavourings, salt, colour (E150a). Alcohol free.",
+                "image": "https://harrypottershop.co.uk/cdn/shop/files/ButterbeerBeans_800x.png?v=1708336656"
+            },
+            {
+                "id": "jelly02",
+                "category":"jellybean",
+                "name": "Butterbeer Gummies",
+                "price": 4.95,
+                "description": "Jelly Belly has really put their magical kitchens to work to bring you these Harry Potter Butterbeer gummies! This Butterbeer chewy candy comes in a fun tankard shape and tastes just like the real thing served at The Three Broomsticks. They're as delicious as they are entertaining and have the perfect soft chew. So raise a glass to the sweet and iconic wizarding drink and indulge in this enchanting treat!",
+                "ingredients": "Sugar, glucose syrup, modified potato starch, water, flavourings, colours (E100, E150a), canola oil, coconut oil, salt, glazing agent (E903). Alcohol free.",
+                "image": "https://harrypottershop.co.uk/cdn/shop/files/ButterbeerGummies_800x.png?v=1708336589"
+            },
+            {
+                "id":"jelly03",
+                "category": "jellybean",
+                "name": "Bertie Bott's Every Flavour Beans",
+                "price": 13.00,
+                "description": "These gourmet jellybeans come in up to 20 flavors that range from delicious to disgusting, wrapped in the authentic Bertie Bott's Every Flavor Beans box. Flavors include marshmallow, tutti-frutti, grass, soap, and earwax. The assortment of beans are available in a decorated box based on the packaging created for the Harry Potter film series, and seen in the famous wizarding sweet shop Honeydukes, located in the all-wizarding village of Hogsmeade. The box of candy is complete with a bean flavor menu, will your choice be delicious or disgusting? Beans total approximately 6 oz.",
+                "ingredients": "sugar, corn syrup, modified food starch, contains 2% or less of each of the following: blue-berry puree, lemon puree, banana puree, cherry juice concentrate, watermelon juice concentrate, apple juice concentrate, black pepper, citric acid, malic acid, maltodextrin, natural and artificial flavors, color added, red 40 lake, yellow 5 & 6, blue 1 & 2 lake, yellow 5 & 6 lake, blue 1, red 40, beeswax, carnauba wax, confectioner’s glaze, tapioca dextrin, salt.",
+                "allergy_advice": "shares equipment with and produced in a facility containing peanuts, tree nuts, milk, egg, wheat, and soy. Made in the U.S.A.",
+                "image": "https://harrypottershop.co.uk/cdn/shop/products/1239790_1_800x.png?v=1679996537"
+            },
+            {
+                "id": "jelly04",
+                "category": "jellybean",
+                "name": "Bertie Botts Beans Souvenir Tin",
+                "price": 23.00,
+                "description": "Take home these tasty gourmet jellybeans which come in up to 20 flavours. The flavours range from delicious to disgusting and are presented in the authentic Bertie Bott's Every Flavour Beans tin. Flavours include marshmallow, tutti-frutti, grass, soap, and earwax. Packaged in a decorated box based on the packaging created for the Harry Potter film series and complete with bean flavour menu. Beans total approximately 170g.",
+                "ingredients": "Sugar, Glucose Syrup, Modified Corn Starch, Blueberry Puree, Flavourings, Acidity Regulators: E296, E330, E334, Banana Puree, Fruit and Vegetable Concentrates (Apple, Spirulina, Carrot, Blackcurrant, Pumpkin, Hibiscus), Colours: E100, E150a, E153, E162, E171; Glazing Agents: E901, E903, E904; Fruit Juice Concentrate (Watermelon, Apple, Cherry), Lemon Puree, Salt, Invert Sugar Syrup, Black Pepper, Tapioca Dextrin.",
+                "allergy_advice": "For allergens, please see ingredients in bold. May also contain traces of nuts, peanuts, gluten, egg, soya, milk. Store in a cool dry place away from direct sunlight. Warning: E102,E110 and E129 may have an adverse effect on activity and attention in children. Produced in a factory which handles nuts. Not suitable for nut allergy sufferers. Nutritional information: Energy 1564/368Kj/kcal, Fat: 0g (of which saturates: 0g), Carbohydrate: 92g (of which sugars: 70g), Protein: 0g, Salt: 0.1g.",
+                "image": "https://harrypottershop.co.uk/cdn/shop/products/1338924_1_800x.png?v=1679956774"
+            }
+        ]  
+    }
+]
