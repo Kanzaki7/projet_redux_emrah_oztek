@@ -9,6 +9,7 @@ export default function Navbar() {
     const dispatch = useDispatch();
 
     const navclass = useSelector((state) => state.navclass.value)
+    const tableau = useSelector((state) => state.cart.value)
 
     return(
         <div className={navclass === "home" ? "navHome" : navclass === "ollivanders" ? "navOllivanders" : navclass === "honeydukes" ? "navHoneydukes" : navclass === "menagerie" ? "navMenagerie" : navclass === "quidditch" ? "navQuidditch" : null}>
@@ -29,14 +30,14 @@ export default function Navbar() {
             {connexion[2].input === "login" && 
                 <div className='navLog'>
                 <div>Connected as guest</div>
-                    <Link to='/logIn' className='linkLog'>Log In</Link>
+                    <Link to='/logIn' className='linkLog' id='home'>Log In</Link>
                 </div>
             }
             {connexion[2].input === "logout" && 
                 <div className='navLog'>
                     <div>Connected as {connexion[0].input}</div>
                     <Link to='/logIn' className='linkLog' onClick={()=>dispatch(auth())}><div>Log Out</div></Link>
-                    <Link to='/cart' className='linkLog'><div>Cart(0)</div></Link>
+                    <Link to='/cart' className='linkLog'><div id='home' onClick={(e)=>dispatch(changeClass(e.target.id))}>Cart({tableau.length})</div></Link>
                 </div>
             }
         </div>

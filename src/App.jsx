@@ -8,11 +8,19 @@ import Ollivanders from './components/Ollivanders/Ollivanders';
 import Honeydukes from './components/Honeydukes/Honeydukes';
 import Menagerie from './components/Menagerie/Menagerie';
 import Quidditch from './components/Quidditch/Quidditch';
+import Products from './components/Products/Products';
 
-const routeur = createBrowserRouter([
+
+
+function App() {
+
+  const [total, setTotal] = useState(0)
+
+  const routeur = createBrowserRouter([
+  
   {
     path:"/",
-    element: <Home/>,
+    element: <Home total={total} setTotal={setTotal}/>,
     // errorElement: <Erreur />
   },
   {
@@ -36,19 +44,21 @@ const routeur = createBrowserRouter([
     // errorElement: <Erreur />
   },
   {
+    path:"/products/:id",
+    element: <Products/>
+    // errorElement: <Erreur />
+  },
+  {
     path:"/logIn",
     element: <LogIn/>,
     // errorElement: <Erreur />
   },
   {
     path:"/cart",
-    element: <Cart/>,
+    element: <Cart total={total} setTotal={setTotal}/>,
     // errorElement: <Erreur />
   },
 ])
-
-function App() {
-
 
   return (
     <>

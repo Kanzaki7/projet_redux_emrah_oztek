@@ -2,9 +2,13 @@ import '../../App.css'
 import Navbar from '../Navbar/Navbar'
 import sweets from '../../sweetTrolley.json'
 import { useState, useEffect } from 'react'
+import { useSelector, useDispatch } from "react-redux"
+import { arrayArticles } from '../../features/ArticlesSlice/ArticlesSlice'
+import { Link } from 'react-router-dom'
+import { addCart } from '../../features/CartSlice/CartSlice'
 
 
-export default function Home() {
+export default function Home(props) {
     const [images, setImage] = useState([
         sweets[0].image,
         sweets[1].image,
@@ -40,13 +44,23 @@ export default function Home() {
  
 
     const [captureInput, setCaptureInput] = useState("")
-    const [filtArray, setFiltArray] = useState([])
+    const articlesArray = useSelector((state) => state.articles.value)
+    const dispatch = useDispatch();
 
-    useEffect(() => {
-        let filt = sweets.filter(l =>l.name.toLowerCase().includes(captureInput))
-        setFiltArray(filt)
-    }, [captureInput])
+    const connexion = useSelector((state) => state.login.value)
+
+    let filter = (e) => {
+        setCaptureInput(e.target.value)
+        dispatch(arrayArticles(captureInput))
+    }
+
+
+    let addProduct = ({name, price, total}) => {
+        dispatch(addCart({name, price, total}))
+        props.setTotal(props.total+total)
+    }
     
+
     
     return(
         <div className="home">
@@ -57,14 +71,24 @@ export default function Home() {
             </div>
             <div className='articlesMap'>
                 <div>
-                    <input type="text" value={captureInput} onChange={(e)=>setCaptureInput(e.target.value)}/>
+                    <input type="text" value={captureInput} onChange={filter}/>
                 </div>
                 <div className='articles'>
                     {
-                        filtArray.map((sweet, index) => (
+                        articlesArray.map((sweet, index) => (
                             <div key={index} className='article'>
-                                <img src={sweet.image} alt="" />
-                                {/* <div>{sweet.name}</div> */}
+                                <div className='articleDivImg'>
+                                    <img src={sweet.image} alt="" className='imgPrincipale'/>
+                                </div>
+                                <div>{sweet.name}</div>
+                                <Link to={"/products/"+articlesArray.indexOf(sweet)}><img src={"./assets/img/loupe.png"} alt="" className='imgLoupe'/></Link>
+                                {
+                                    connexion[2].input === "logout" &&
+                                    <div className='hiddenInfo'>
+                                        <div>€{sweet.price} EUR</div>
+                                        <div className='productBtn' onClick={()=>dispatch(addProduct({name: sweet.name, price: sweet.price, total: sweet.price}))}>ADD TO CART</div>
+                                    </div>
+                                }
                             </div>
                         ))
                     }
