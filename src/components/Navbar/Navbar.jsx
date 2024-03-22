@@ -14,11 +14,11 @@ export default function Navbar() {
     return(
         <div className={navclass === "home" ? "navHome" : navclass === "ollivanders" ? "navOllivanders" : navclass === "honeydukes" ? "navHoneydukes" : navclass === "menagerie" ? "navMenagerie" : navclass === "quidditch" ? "navQuidditch" : null}>
             <div className='navTitle'>
-                {navclass === "home" && <div>Hogsmeade</div>}
-                {navclass === "ollivanders" && <div>Ollivanders</div>}
-                {navclass === "honeydukes" && <div>Honeydukes</div>}
-                {navclass === "menagerie" && <div>Magical Menagerie</div>}
-                {navclass === "quidditch" && <div>Quidditch Supplies</div>}
+                {navclass === "home" && <div className='hogsmeade'>Hogsmeade</div>}
+                {navclass === "ollivanders" && <div className='olli'>Ollivanders</div>}
+                {navclass === "honeydukes" && <div className='honey'>Honeydukes</div>}
+                {navclass === "menagerie" && <div className='mag'>Magical Menagerie</div>}
+                {navclass === "quidditch" && <div className='quid'>Quidditch Supplies</div>}
             </div>
             <div className='navLinks'>
                 <Link to="/" className='link'><div id='home' onClick={(e)=>dispatch(changeClass(e.target.id))}>Home</div></Link>

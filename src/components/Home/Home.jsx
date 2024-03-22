@@ -6,6 +6,7 @@ import { useSelector, useDispatch } from "react-redux"
 import { arrayArticles } from '../../features/ArticlesSlice/ArticlesSlice'
 import { Link } from 'react-router-dom'
 import { addCart } from '../../features/CartSlice/CartSlice'
+import Footer from '../Footer/Footer'
 
 
 export default function Home(props) {
@@ -48,6 +49,7 @@ export default function Home(props) {
     const dispatch = useDispatch();
 
     const connexion = useSelector((state) => state.login.value)
+
 
     let filter = (e) => {
         setCaptureInput(e.target.value)
@@ -94,6 +96,7 @@ export default function Home(props) {
                     }
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }

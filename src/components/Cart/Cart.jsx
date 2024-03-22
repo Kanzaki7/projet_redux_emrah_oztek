@@ -3,6 +3,7 @@ import Navbar from '../Navbar/Navbar'
 import { useSelector, useDispatch } from 'react-redux'
 import { deleteCart, checkOut, plusUn, moinsUn } from '../../features/CartSlice/CartSlice'
 import { useState } from 'react'
+import Footer from '../Footer/Footer'
 
 
 export default function Cart(props) {
@@ -28,6 +29,9 @@ export default function Cart(props) {
     let removeOne = (index) => {
         dispatch(moinsUn(index))
         props.setTotal(props.total-tableau[index].price)
+        if (tableau[index].quantity === 1) {
+            deleteAll(index)
+        }
     }
 
     return(
@@ -50,6 +54,7 @@ export default function Cart(props) {
                 <div>TOTAL : €{props.total}</div>
                 <button onClick={()=>noTotal()}>Check Out</button>
             </div>
+            <Footer/>
         </div>
     )
 }

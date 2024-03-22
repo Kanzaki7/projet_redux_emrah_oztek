@@ -25,27 +25,27 @@ function App() {
   },
   {
     path:"/ollivanders",
-    element: <Ollivanders/>
+    element: <Ollivanders total={total} setTotal={setTotal}/>
     // errorElement: <Erreur />
   },
   {
     path:"/honeydukes",
-    element: <Honeydukes/>
+    element: <Honeydukes total={total} setTotal={setTotal}/>
     // errorElement: <Erreur />
   },
   {
     path:"/menagerie",
-    element: <Menagerie/>
+    element: <Menagerie total={total} setTotal={setTotal}/>
     // errorElement: <Erreur />
   },
   {
     path:"/quidditch",
-    element: <Quidditch/>
+    element: <Quidditch total={total} setTotal={setTotal}/>
     // errorElement: <Erreur />
   },
   {
     path:"/products/:id",
-    element: <Products/>
+    element: <Products total={total} setTotal={setTotal}/>
     // errorElement: <Erreur />
   },
   {
