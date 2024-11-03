@@ -72,8 +72,8 @@ export default function Home(props) {
                 <img src={images[random]} alt="" />
             </div>
             <div className='articlesMap'>
-                <div>
-                    <input type="text" value={captureInput} onChange={filter}/>
+                <div className='searchBarDiv'>
+                    <input className='searchBar' type="text" value={captureInput} onChange={filter}/>
                 </div>
                 <div className='articles'>
                     {
@@ -82,7 +82,7 @@ export default function Home(props) {
                                 <div className='articleDivImg'>
                                     <img src={sweet.image} alt="" className='imgPrincipale'/>
                                 </div>
-                                <div>{sweet.name}</div>
+                                <div className='articleTitle'>{sweet.name}</div>
                                 <Link to={"/products/"+articlesArray.indexOf(sweet)}><img src={"./assets/img/loupe.png"} alt="" className='imgLoupe'/></Link>
                                 {
                                     connexion[2].input === "logout" &&

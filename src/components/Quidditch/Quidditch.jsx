@@ -18,9 +18,9 @@ export default function Quidditch(props) {
     }
 
     return(
-        <div className='ollivanders'>
+        <div className='quidditch'>
             <Navbar/>
-            <div className='wands'>
+            <div className='qui'>
             {
                         articlesArray.filter(l => l.category === "broom").map((sweet, index) => (
                             <div key={index} className='article'>
